@@ -10,5 +10,5 @@ spec:
   placementRef:
     kind: Placement
     apiVersion: cluster.open-cluster-management.io/v1beta1
-    name: redhat-aws
+    name: openshift-clusters
     namespace: openshift-gitops

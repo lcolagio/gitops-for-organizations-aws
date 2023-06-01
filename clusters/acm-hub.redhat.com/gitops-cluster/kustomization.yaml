@@ -4,3 +4,4 @@ resources:
 - ManagedClusterSetBinding.yaml
 - GitOpsCluster.yaml
 - Placement.yaml
+- ManagedClusterSet.yaml
