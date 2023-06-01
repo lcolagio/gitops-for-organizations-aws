@@ -4,6 +4,6 @@ resources:
 - groups
 - argocd
 - gitops-cluster
-# - applications
+- applications
 # - applicationsets
 # - policies
