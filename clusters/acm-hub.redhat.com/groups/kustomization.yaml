@@ -1,0 +1,9 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+bases:
+
+resources:
+- 0-cluster-admins-group.yaml
+- 0-users-group.yaml
+- 1-cluster-admins-rbac.yaml
