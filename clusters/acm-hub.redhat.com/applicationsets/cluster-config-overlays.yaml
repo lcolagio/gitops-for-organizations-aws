@@ -6,7 +6,7 @@ metadata:
 spec:
   generators:
   - git:
-      repoURL: https://github.com/albertogd/gitops-for-organizations.git
+      repoURL: https://github.com/lcolagio/gitops-for-organizations-aws.git
       revision: main
       files:
         - path: "clusters/**/conf.yaml"
@@ -21,7 +21,7 @@ spec:
     spec:
       project: default
       source:
-        repoURL: https://github.com/albertogd/gitops-for-organizations.git
+        repoURL: https://github.com/lcolagio/gitops-for-organizations-aws.git
         targetRevision: main
         path: clusters/{{cluster.environment}}/{{cluster.fqdn}}/overlay
       destination:
