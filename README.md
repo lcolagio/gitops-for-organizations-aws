@@ -1,2 +1,2 @@
 # gitops-for-organizations-aws
-V1
+V2
