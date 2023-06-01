@@ -3,16 +3,18 @@
 
 * Se logger sur RH ACM
 
-* Installer OpenShift GitOps
+# Bootstrap Cluster
+```shell
+until oc apply -k https://github.com/lcolagio/lab-gitops-v2/cluster-XXXX/bootstrap/overlays/default/; do sleep 5; done
+```
 
-
-* Configure groups and rbac
+# Configure groups and rbac
 
 ```shell
 oc apply -k https://github.com/lcolagio/gitops-for-organizations-aws/clusters/acm-hub.redhat.com/groups
 ```
 
-* Configure cluster
+# Configure cluster
 ```shell
 oc apply -k https://github.com/lcolagio/gitops-for-organizations-aws/clusters/acm-hub.redhat.com/applications
 ```

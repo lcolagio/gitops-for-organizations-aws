@@ -3,8 +3,9 @@ kind: Kustomization
 
 bases:
 - ../../base
-- ../../../components/argocdproj
-- ../../../components/applications
-- ../../../components/applicationsets
+- ../../../clusters/acm-hub.redhat.com
+# - ../../../components/argocdproj
+# - ../../../components/applications
+# - ../../../components/applicationsets
 
 resources:
