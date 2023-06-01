@@ -1,16 +1,31 @@
-apiVersion: cluster.open-cluster-management.io/v1beta1
+# apiVersion: cluster.open-cluster-management.io/v1beta1
+# kind: Placement
+# metadata:
+#   name: all-openshift-clusters
+#   namespace: openshift-gitops
+# spec:
+#   predicates:
+#   - requiredClusterSelector:
+#       labelSelector:
+#         matchExpressions:
+#         - key: environment
+#           operator: "In"
+#           values:
+#           - dev
+#           - pre
+#           - pro
+
+apiVersion: cluster.open-cluster-management.io/v1alpha1
 kind: Placement
 metadata:
-  name: openshift-clusters
+  name: all-openshift-clusters
   namespace: openshift-gitops
 spec:
   predicates:
   - requiredClusterSelector:
       labelSelector:
         matchExpressions:
-        - key: environment
+        - key: vendor
           operator: "In"
           values:
-          - dev
-          - pre
-          - pro
+          - OpenShift
