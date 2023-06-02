@@ -17,7 +17,7 @@ spec:
         environment: "{{cluster.environment}}"
         cluster: "{{cluster.fqdn}}"
         region: "{{cluster.region}}"
-        cloud: {{ .Values.cluster.name }}
+        cloud: "{{cluster.cloud}}"
     spec:
       project: default
       source:
