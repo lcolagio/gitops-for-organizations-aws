@@ -3,6 +3,7 @@ kind: ClusterDeployment
 metadata:
   annotations:
     helm.sh/hook-weight: "360"
+    argocd.argoproj.io/compare-options: IgnoreExtraneous     
   labels:
     cloud: 'AWS'
     vendor: OpenShift
