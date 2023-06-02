@@ -3,6 +3,7 @@ kind: MachinePool
 metadata:
   annotations:
     helm.sh/hook-weight: "360"
+    argocd.argoproj.io/sync-options: Skip    
   name: {{ .Values.cluster.name }}-worker
   namespace: {{ .Values.cluster.name }}
 spec:
