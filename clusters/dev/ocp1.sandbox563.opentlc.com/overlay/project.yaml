@@ -1,5 +1,4 @@
-apiVersion: project.openshift.io/v1
-kind: Project
+apiVersion: v1
+kind: Namespace
 metadata:
-  name: ocp1
-
+  name: admin
