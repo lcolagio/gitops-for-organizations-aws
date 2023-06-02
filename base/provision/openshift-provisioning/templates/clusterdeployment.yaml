@@ -12,7 +12,7 @@ metadata:
   namespace: {{ .Values.cluster.name }}
   labels:
     cloud: {{ .Values.cluster.name }}
-    region: "{{cluster.region}}"
+    region: {{ .Values.cluster.region}}
     vendor: OpenShift
 spec:
   baseDomain: {{ .Values.cluster.baseDomain }}
