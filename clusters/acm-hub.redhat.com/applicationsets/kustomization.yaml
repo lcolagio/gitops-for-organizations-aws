@@ -3,4 +3,4 @@ kind: Kustomization
 resources:
 # - cluster-config.yaml
 # - cluster-config-overlays.yaml
-# - cluster-provisioning.yaml
+ - cluster-provisioning.yaml
