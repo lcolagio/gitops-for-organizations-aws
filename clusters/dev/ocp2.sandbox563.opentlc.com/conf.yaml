@@ -3,7 +3,7 @@ cluster:
   domain: sandbox563.opentlc.com
   fqdn: ocp2.sandbox563.opentlc.com
   address: "https://api.ocp2.sandbox563.opentlc.com:6443"
-  environment: dev
+  environment: bas
   datacenter: us
   cloud: AWS
   region: us-west-1
