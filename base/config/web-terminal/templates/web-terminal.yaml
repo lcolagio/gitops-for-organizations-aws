@@ -1,4 +1,4 @@
-{{- if .Values.web-terminal.include -}}
+{{- if .Values.webterminal.include -}}
 
 ---
 apiVersion: operators.coreos.com/v1alpha1
