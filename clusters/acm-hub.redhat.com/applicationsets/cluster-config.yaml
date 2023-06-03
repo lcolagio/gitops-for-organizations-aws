@@ -17,7 +17,7 @@ spec:
                 # - template: openshift-machine-config
                 # - template: openshift-ingress
                 # - template: openshift-marketplace
-               - template: openshift-web-terminal                 
+               - template: web-terminal                 
   template:
     metadata:
       name: "config-{{cluster.environment}}-{{cluster.name}}-{{template}}"
