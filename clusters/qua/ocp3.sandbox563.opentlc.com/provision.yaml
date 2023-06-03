@@ -1,6 +1,6 @@
 cluster:
-  name: ocp2
-  fqdn: ocp2.sandbox563.opentlc.com
+  name: ocp3
+  fqdn: ocp3.sandbox563.opentlc.com
   baseDomain: sandbox563.opentlc.com
   environment: qua
   datacenter: us
