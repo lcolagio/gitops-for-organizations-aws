@@ -1,6 +1,6 @@
 cluster:
-  name: ocp2
-  fqdn: ocp2.sandbox563.opentlc.com
+  name: ocp4
+  fqdn: ocp4.sandbox563.opentlc.com
   baseDomain: sandbox563.opentlc.com
   environment: pro
   datacenter: us
