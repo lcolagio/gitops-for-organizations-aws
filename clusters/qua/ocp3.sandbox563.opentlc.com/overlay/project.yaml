@@ -1,4 +1,11 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: pro
+  name: admin
+
+---
+
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: qua
