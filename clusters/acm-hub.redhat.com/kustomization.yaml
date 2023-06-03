@@ -6,4 +6,4 @@ resources:
 - gitops-cluster
 - applications
 - applicationsets
-# - policies
+- policies
