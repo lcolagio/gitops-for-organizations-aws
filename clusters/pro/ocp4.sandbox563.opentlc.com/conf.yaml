@@ -2,7 +2,7 @@ cluster:
   name: ocp4
   domain: sandbox563.opentlc.com
   fqdn: ocp4.sandbox563.opentlc.com
-  address: "https://api.ocp2.sandbox563.opentlc.com:6443"
+  address: "https://api.ocp4.sandbox563.opentlc.com:6443"
   environment: pro
   datacenter: us
   cloud: AWS
