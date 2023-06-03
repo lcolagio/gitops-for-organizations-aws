@@ -1,4 +1,4 @@
-{{- if .Values.web-terminal.include }}
+# {{- if .Values.web-terminal.include }}
 
 ---
 apiVersion: operators.coreos.com/v1alpha1
@@ -8,9 +8,9 @@ metadata:
   namespace: openshift-operators
 spec:
   channel: fast
-  installPlanApproval: Manual
+  installPlanApproval: Automatic
   name: web-terminal
   source: redhat-operators
   sourceNamespace: openshift-marketplace
 
-{{ end }}
+# {{ end }}
