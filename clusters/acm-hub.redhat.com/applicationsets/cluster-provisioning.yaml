@@ -19,9 +19,9 @@ spec:
         region: "{{cluster.region}}"
         cloud: "{{cluster.cloud}}"
     spec:
-      syncPolicy:
-        syncOptions:
-        - RespectIgnoreDifferences=true    
+      # syncPolicy:
+      #   syncOptions:
+      #   - RespectIgnoreDifferences=true    
       ignoreDifferences:
       - kind: "MachinePool"
         group: "hive.openshift.io"
