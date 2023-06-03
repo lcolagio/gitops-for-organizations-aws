@@ -1,4 +1,10 @@
+# apiVersion: v1
+# name: web-terminal
+# version: "1"
+# description: Cluster Config
+
 apiVersion: v1
-name: web-terminal
+name: aws-cluster-build 
 version: "1"
-description: Cluster Config
+kubeVersion: ">= 1.9.0"
+description: RHACM cluster builds for aws hosted infrastructure
