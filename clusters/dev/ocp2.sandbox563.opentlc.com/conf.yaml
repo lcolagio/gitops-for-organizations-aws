@@ -1,0 +1,18 @@
+cluster:
+  name: ocp2
+  domain: sandbox563.opentlc.com
+  fqdn: ocp2.sandbox563.opentlc.com
+  address: "https://kubernetes.default.svc"
+  environment: dev
+  datacenter: us
+  cloud: AWS
+  region: us-west-1
+  registry: quay-dev.io
+
+catalogSource:
+  rh_catalog_version: v4.10
+
+# ingress:
+#   controller:
+#     syslog:
+#       address: 10.9.0.1
