@@ -1,16 +1,25 @@
 {{- if .Values.web-terminal.include }}
 
----
-apiVersion: operators.coreos.com/v1alpha1
-kind: Subscription
+# ---
+# apiVersion: operators.coreos.com/v1alpha1
+# kind: Subscription
+# metadata:
+#   name: openshift-web-terminal
+#   namespace: openshift-operators
+# spec:
+#   channel: fast
+#   installPlanApproval: Automatic
+#   name: web-terminal
+#   source: redhat-operators
+#   sourceNamespace: openshift-marketplace
+
+apiVersion: v1
+kind: Namespace
 metadata:
-  name: openshift-web-terminal
-  namespace: openshift-operators
-spec:
-  channel: fast
-  installPlanApproval: Automatic
-  name: web-terminal
-  source: redhat-operators
-  sourceNamespace: openshift-marketplace
+  name: foobar
+spec: {}
+status: {}
+
+
 
 {{ end }}
