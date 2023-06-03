@@ -19,11 +19,14 @@ spec:
         region: "{{cluster.region}}"
         cloud: "{{cluster.cloud}}"
     spec:
-      ignoreDifferences:
-      - kind: machincepool
-        jsonPointers:
-        - /spec/skipMachinePools
-          
+      syncPolicy:
+        syncOptions:
+        - RespectIgnoreDifferences=true    
+      # ignoreDifferences:
+      # - kind: machinepool
+      #   group: hive.openshift.io
+      #   jsonPointers:
+      #   - /spec/skipMachinePools          
       project: default
       source:
         repoURL: https://github.com/lcolagio/gitops-for-organizations-aws.git
