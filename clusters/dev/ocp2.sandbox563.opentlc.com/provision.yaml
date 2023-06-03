@@ -2,7 +2,7 @@ cluster:
   name: ocp2
   fqdn: ocp2.sandbox563.opentlc.com
   baseDomain: sandbox563.opentlc.com
-  environment: bas
+  environment: dev
   datacenter: us
   cloud: AWS
   region: us-west-1
