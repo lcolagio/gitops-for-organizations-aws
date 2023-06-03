@@ -14,9 +14,10 @@ spec:
                 - path: "clusters/**/conf.yaml"
           - list:
               elements:
-                - template: openshift-machine-config
-                - template: openshift-ingress
-                - template: openshift-marketplace
+                # - template: openshift-machine-config
+                # - template: openshift-ingress
+                # - template: openshift-marketplace
+               - template: openshift-marketplace                 
   template:
     metadata:
       name: "config-{{cluster.environment}}-{{cluster.name}}-{{template}}"

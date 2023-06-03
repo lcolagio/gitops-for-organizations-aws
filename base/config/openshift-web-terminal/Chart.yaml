@@ -1,0 +1,4 @@
+apiVersion: v1
+name: Web-terminal
+version: "1"
+description: Cluster Config
