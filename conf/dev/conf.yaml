@@ -32,5 +32,5 @@
 #   include: true
 
 # Web Terminal
-openshift-web-terminal:
+webterminal:
   include: true
