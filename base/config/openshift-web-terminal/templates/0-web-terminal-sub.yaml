@@ -1,4 +1,4 @@
-{{- if .Values.openshift-web-terminal.include }}
+{{- if .Values.web-terminal.include }}
 
 ---
 apiVersion: operators.coreos.com/v1alpha1
