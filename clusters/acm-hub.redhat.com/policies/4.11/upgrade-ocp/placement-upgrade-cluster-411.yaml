@@ -13,3 +13,6 @@ spec:
         operator: In
         values:
           - dev
+          - qua
+          - pro
+
