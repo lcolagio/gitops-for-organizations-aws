@@ -1,9 +1,9 @@
 cluster:
   name: ocp1
-  domain: sandbox563.opentlc.com
-  fqdn: ocp1.sandbox563.opentlc.com
+  domain: sandbox55.opentlc.com
+  fqdn: ocp1.sandbox55.opentlc.com
 #  address: "https://kubernetes.default.svc"
-  address: "https://api.ocp1.sandbox563.opentlc.com:6443"
+  address: "https://api.ocp1.sandbox55.opentlc.com:6443"
   environment: dev
   datacenter: us
   cloud: AWS

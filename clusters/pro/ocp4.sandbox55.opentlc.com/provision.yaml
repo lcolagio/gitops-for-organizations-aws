@@ -1,8 +1,8 @@
 cluster:
-  name: ocp3
-  fqdn: ocp3.sandbox563.opentlc.com
-  baseDomain: sandbox563.opentlc.com
-  environment: qua
+  name: ocp4
+  fqdn: ocp4.sandbox55.opentlc.com
+  baseDomain: sandbox55.opentlc.com
+  environment: pro
   datacenter: us
   cloud: AWS
   region: us-west-1
