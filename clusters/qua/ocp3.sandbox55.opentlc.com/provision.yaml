@@ -8,6 +8,8 @@ cluster:
   region: us-west-1
   type: aws
   imageName: 4.10.60
+#  imageName: 4.12.18
+
 
 # network:
 #     networkName:
