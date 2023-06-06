@@ -1,6 +1,4 @@
 # gitops-for-organizations-aws
-
-
 * Se logger sur RH ACM
 
 # Bootstrap Cluster
