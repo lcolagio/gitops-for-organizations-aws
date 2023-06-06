@@ -7,4 +7,4 @@ resources:
 - applications
 - applicationsets
 - policies
-- sealed-secret/overlays/default
+- sealed-secrets/overlays/default
