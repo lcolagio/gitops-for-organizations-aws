@@ -1,6 +1,6 @@
 cluster:
   name: ocp1
-  domain: sandbox55.opentlc.com
+  basedomain: sandbox55.opentlc.com
   fqdn: ocp1.sandbox55.opentlc.com
 #  address: "https://kubernetes.default.svc"
   address: "https://api.ocp1.sandbox55.opentlc.com:6443"
