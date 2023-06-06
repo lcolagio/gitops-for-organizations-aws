@@ -1,6 +1,6 @@
 cluster:
   name: ocp2
-  basedomain: sandbox55.opentlc.com
+  baseDomain: sandbox55.opentlc.com
   fqdn: ocp2.sandbox55.opentlc.com
   address: "https://api.ocp2.sandbox55.opentlc.com:6443"
   environment: qua

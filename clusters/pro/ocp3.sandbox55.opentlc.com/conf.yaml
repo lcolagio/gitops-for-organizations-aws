@@ -1,6 +1,6 @@
 cluster:
   name: ocp3
-  basedomain: sandbox55.opentlc.com
+  baseDomain: sandbox55.opentlc.com
   fqdn: ocp3.sandbox55.opentlc.com
   address: "https://api.ocp3.sandbox55.opentlc.com:6443"
   environment: pro
