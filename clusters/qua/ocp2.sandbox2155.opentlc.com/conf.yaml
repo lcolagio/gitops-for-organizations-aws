@@ -1,8 +1,8 @@
 cluster:
   name: ocp2
-  baseDomain: sandbox55.opentlc.com
-  fqdn: ocp2.sandbox55.opentlc.com
-  address: "https://api.ocp2.sandbox55.opentlc.com:6443"
+  baseDomain: sandbox2155.opentlc.com
+  fqdn: ocp2.sandbox2155.opentlc.com
+  address: "https://api.ocp2.sandbox2155.opentlc.com:6443"
   environment: qua
   datacenter: us
   cloud: AWS
