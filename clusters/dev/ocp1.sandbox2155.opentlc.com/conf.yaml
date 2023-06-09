@@ -2,7 +2,6 @@ cluster:
   name: ocp1
   baseDomain: sandbox2155.opentlc.com
   fqdn: ocp1.sandbox2155.opentlc.com
-#  address: "https://kubernetes.default.svc"
   address: "https://api.ocp1.sandbox2155.opentlc.com:6443"
   environment: dev
   datacenter: us

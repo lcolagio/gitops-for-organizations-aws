@@ -34,3 +34,6 @@
 # Web Terminal
 webterminal:
   include: true
+
+indentityprovider:
+  include: true
