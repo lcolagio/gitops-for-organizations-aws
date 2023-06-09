@@ -28,7 +28,7 @@ spec:
                 spec:
                   channel: stable-4.11
                   desiredUpdate:
-                    version: 4.11.41
+                    version: 4.11.43
     - objectDefinition:
         apiVersion: policy.open-cluster-management.io/v1
         kind: ConfigurationPolicy
