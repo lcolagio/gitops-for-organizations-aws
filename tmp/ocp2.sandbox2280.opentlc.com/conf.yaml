@@ -7,12 +7,4 @@ cluster:
   datacenter: us
   cloud: AWS
   region: us-west-1
-#  registry: quay-dev.io
 
-# catalogSource:
-#   rh_catalog_version: v4.10
-
-# ingress:
-#   controller:
-#     syslog:
-#       address: 10.9.0.1
