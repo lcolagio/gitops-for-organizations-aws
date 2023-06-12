@@ -1,9 +1,9 @@
 cluster:
-  name: ocp1
-  baseDomain: sandbox2155.opentlc.com
-  fqdn: ocp1.sandbox2155.opentlc.com
-  address: "https://api.ocp1.sandbox2155.opentlc.com:6443"
-  environment: dev
+  name: ocp3
+  baseDomain: sandbox2280.opentlc.com
+  fqdn: ocp3.sandbox2280.opentlc.com
+  address: "https://api.ocp3.sandbox2280.opentlc.com:6443"
+  environment: pro
   datacenter: us
   cloud: AWS
   region: us-west-1
