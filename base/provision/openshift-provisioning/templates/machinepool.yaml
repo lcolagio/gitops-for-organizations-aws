@@ -17,5 +17,5 @@ spec:
         size: 100
         type: io1
       type: m5.xlarge
-  replicas: 0
-  skipMachinePools: true
+  replicas: {{ .Values.workers.count }}
+  skipMachinePools: {{ .Values.workers.skipMachinePools }}

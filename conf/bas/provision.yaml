@@ -6,6 +6,7 @@ masters:
     # diskGB: 40
 
 workers:
+    skipMachinePools: true
     count: 0
     # cpus: 4
     # coresPerSocket: 2
