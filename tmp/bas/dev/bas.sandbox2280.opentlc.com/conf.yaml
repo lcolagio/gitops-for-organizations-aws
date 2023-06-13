@@ -1,0 +1,9 @@
+cluster:
+  name: bas
+  baseDomain: sandbox2280.opentlc.com
+  fqdn: bas.sandbox2280.opentlc.com
+  address: "https://api.bas.sandbox2280.opentlc.com:6443"
+  environment: bas
+  datacenter: us
+  cloud: AWS
+  region: us-west-1

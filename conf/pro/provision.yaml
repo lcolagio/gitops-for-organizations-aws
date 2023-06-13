@@ -1,15 +1,15 @@
-# masters:
-#     count: 3 
-#     cpus: 4
-#     coresPerSocket: 2
-#     memoryMB: 16384
-#     diskGB: 40
+masters:
+    count: 1 
+    # cpus: 4
+    # coresPerSocket: 2
+    # memoryMB: 16384
+    # diskGB: 40
 
-# workers:
-#     count: 1
-#     cpus: 4
-#     coresPerSocket: 2
-#     memoryMB: 16384
-#     diskGB: 40
+workers:
+    count: 0
+    # cpus: 4
+    # coresPerSocket: 2
+    # memoryMB: 16384
+    # diskGB: 40
 
 

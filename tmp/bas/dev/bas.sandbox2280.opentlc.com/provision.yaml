@@ -1,0 +1,14 @@
+cluster:
+  name: bas
+  baseDomain: sandbox2280.opentlc.com
+  fqdn: bas.sandbox2280.opentlc.com
+  environment: bas
+  datacenter: us
+  cloud: AWS
+  region: us-west-1
+  type: aws
+  imageName: 4.10.60
+#  imageName: 4.11.41
+#  imageName: 4.12.18
+
+

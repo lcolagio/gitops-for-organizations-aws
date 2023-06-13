@@ -1,0 +1,17 @@
+# # Cluster
+
+# # Openshift Config
+# config:
+#   include: true
+
+# # MachineConfig
+# machineConfig:
+#   include: true
+
+# Web Terminal
+webterminal:
+  include: false
+
+# Indentit Pprovider Httpasswd
+indentityprovider:
+  include: true
