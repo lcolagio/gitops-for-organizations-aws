@@ -17,8 +17,10 @@ spec:
                 # - template: openshift-machine-config
                 # - template: openshift-ingress
                 # - template: openshift-marketplace
-               - template: web-terminal 
                - template: identity-provider
+               - template: groups
+               - template: admin
+               - template: web-terminal                
 
   template:
     metadata:
