@@ -1,8 +1,8 @@
 cluster:
-  name: bas
+  name: ocp0
   baseDomain: sandbox2280.opentlc.com
-  fqdn: bas.sandbox2280.opentlc.com
-  address: "https://api.bas.sandbox2280.opentlc.com:6443"
+  fqdn: ocp0.sandbox2280.opentlc.com
+  address: "https://api.ocp0.sandbox2280.opentlc.com:6443"
   environment: bas
   datacenter: us
   cloud: AWS
