@@ -11,6 +11,7 @@ spec:
         - key: environment
           operator: "In"
           values:
+          - bas
           - dev
           - qua
           - pro
