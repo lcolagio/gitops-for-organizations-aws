@@ -4,6 +4,7 @@ resources:
 
 # Bootstrap RH ACM - Management Cluster
 - sealed-secrets/overlays/default
+- rhacm
 - identity-provider
 - groups
 - argocd
