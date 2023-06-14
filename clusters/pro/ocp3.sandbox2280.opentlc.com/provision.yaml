@@ -1,7 +1,7 @@
 cluster:
   name: ocp3
-  baseDomain: sandbox2280.opentlc.com
-  fqdn: ocp3.sandbox2280.opentlc.com
+  baseDomain: sandbox790.opentlc.com
+  fqdn: ocp3.sandbox790.opentlc.com
   environment: pro
   datacenter: us
   cloud: AWS
@@ -11,5 +11,21 @@ cluster:
 #  imageName: 4.11.41
   imageName: 4.12.18
 
+
+masters:
+    count: 3
+    # cpus: 4
+    # coresPerSocket: 2
+    # memoryMB: 16384
+    # diskGB: 40
+
+workers:
+    # skipMachinePools=true for single node only
+    skipMachinePools: false
+    count: 3
+    # cpus: 4
+    # coresPerSocket: 2
+    # memoryMB: 16384
+    # diskGB: 40
 
 

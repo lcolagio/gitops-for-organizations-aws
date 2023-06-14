@@ -10,7 +10,7 @@
 
 # Web Terminal
 webterminal:
-  include: true
+  include: false
 
 # Indentit Pprovider Httpasswd
 indentityprovider:

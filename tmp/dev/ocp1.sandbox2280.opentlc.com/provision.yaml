@@ -1,7 +1,7 @@
 cluster:
   name: ocp1
-  baseDomain: sandbox2280.opentlc.com
-  fqdn: ocp1.sandbox2280.opentlc.com
+  baseDomain: sandbox790.opentlc.com
+  fqdn: ocp1.sandbox790.opentlc.com
   environment: dev
   datacenter: us
   cloud: AWS
