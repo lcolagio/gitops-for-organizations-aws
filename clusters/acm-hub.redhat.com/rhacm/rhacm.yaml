@@ -29,3 +29,13 @@ spec:
   source: redhat-operators
   sourceNamespace: openshift-marketplace
   startingCSV: advanced-cluster-management.v2.7.4
+
+---
+
+apiVersion: operator.open-cluster-management.io/v1
+kind: MultiClusterHub
+metadata:
+  name: multiclusterhub
+  namespace: open-cluster-management
+spec:
+  availabilityConfig: Basic
