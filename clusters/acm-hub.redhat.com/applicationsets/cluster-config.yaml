@@ -19,7 +19,7 @@ spec:
                 # - template: openshift-marketplace
                - template: identity-provider
                - template: groups
-              #  - template: admin
+                #  - template: admin
                - template: web-terminal                
 
   template:
