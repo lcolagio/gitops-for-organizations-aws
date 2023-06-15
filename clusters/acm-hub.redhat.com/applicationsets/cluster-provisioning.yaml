@@ -30,7 +30,8 @@ spec:
       - kind: "ClusterDeployment"
         group: "hive.openshift.io"
         jsonPointers:
-        - /spec/installed                 
+        - /spec/installed   
+                      
       project: default
       source:
         repoURL: https://github.com/lcolagio/gitops-for-organizations-aws.git
