@@ -5,11 +5,11 @@ metadata:
   namespace: openshift-gitops
 spec:
   generators:
-    - git:
-        repoURL: https://github.com/lcolagio/gitops-for-organizations-aws.git
-        revision: main
-        files:
-          - path: "clusters/**/provision.yaml"
+  - git:
+      repoURL: https://github.com/lcolagio/gitops-for-organizations-aws.git
+      revision: main
+      files:
+        - path: "clusters/**/provision.yaml"
   template:
     metadata:
       name: "provision-{{cluster.environment}}-{{cluster.name}}"
