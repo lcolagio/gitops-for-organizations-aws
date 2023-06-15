@@ -34,20 +34,20 @@ spec:
       # syncPolicy:
       #   syncOptions:
       #   - RespectIgnoreDifferences=true    
-      # ignoreDifferences:
-      # - kind: "Secret"
-      #   group: "v1"
-      #   managedFieldsManagers:
-      #   - authentication-operator
       ignoreDifferences:
-      - kind: "MachinePool"
-        group: "hive.openshift.io"
-        jsonPointers:
-        - /spec/skipMachinePools
-      - kind: "ClusterDeployment"
-        group: "hive.openshift.io"
-        jsonPointers:
-        - /spec/installed   
+      - kind: "Secret"
+        group: "v1"
+        managedFieldsManagers:
+        - authentication-operator
+      # ignoreDifferences:
+      # - kind: "MachinePool"
+      #   group: "hive.openshift.io"
+      #   jsonPointers:
+      #   - /spec/skipMachinePools
+      # - kind: "ClusterDeployment"
+      #   group: "hive.openshift.io"
+      #   jsonPointers:
+      #   - /spec/installed   
       project: default
       source:
         repoURL: https://github.com/lcolagio/gitops-for-organizations-aws.git
