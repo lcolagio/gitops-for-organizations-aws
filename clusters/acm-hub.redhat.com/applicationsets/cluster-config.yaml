@@ -23,6 +23,14 @@ spec:
                - template: web-terminal                
 
   template:
+    # syncPolicy:
+    #   syncOptions:
+    #   - RespectIgnoreDifferences=true    
+    ignoreDifferences:
+    - kind: "Secret"
+      group: "v1"
+      managedFieldsManagers:
+      - authentication-operator
     metadata:
       name: "config-{{cluster.environment}}-{{cluster.name}}-{{template}}"
       labels:
