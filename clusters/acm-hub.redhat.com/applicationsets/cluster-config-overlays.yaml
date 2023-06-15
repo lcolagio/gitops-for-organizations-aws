@@ -19,6 +19,14 @@ spec:
         region: "{{cluster.region}}"
         cloud: "{{cluster.cloud}}"
     spec:
+      # syncPolicy:
+      #   syncOptions:
+      #   - RespectIgnoreDifferences=true    
+      ignoreDifferences:
+      - kind: "Secret"
+        group: "v1"
+        managedFieldsManagers:
+        - authentication-operator
       project: default
       source:
         repoURL: https://github.com/lcolagio/gitops-for-organizations-aws.git
