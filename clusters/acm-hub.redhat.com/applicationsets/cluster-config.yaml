@@ -36,7 +36,7 @@ spec:
       #   - RespectIgnoreDifferences=true    
       ignoreDifferences:
       - kind: "Secret"
-        group: xxx
+        group: "*
         managedFieldsManagers:
         - Go-http-client
       # ignoreDifferences:
