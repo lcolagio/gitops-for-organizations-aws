@@ -2,5 +2,5 @@ apiVersion: v2
 name: hello-world
 version: 0.0.1
 description: A Helm chart to show a webserver and with no other dependencies
-keywords:
-- pattern
+# keywords:
+# - pattern
