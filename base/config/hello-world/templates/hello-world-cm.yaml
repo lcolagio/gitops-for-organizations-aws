@@ -20,7 +20,7 @@ data:
             <br/>
             <h2>
             Hub Cluster domain is '{{ .Values.cluster.baseDomain }}' <br>
-            Pod is running on Local Cluster Domain '{{ .Values.cluster.name. }}' <br>
+            Pod is running on Local Cluster Domain '{{ .Values.cluster.name }}' <br>
             </h2>
           </body>
       </html>
