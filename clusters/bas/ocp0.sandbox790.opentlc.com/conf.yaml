@@ -12,3 +12,4 @@ cluster:
 # exemple application
 helloworld:
   include: true
+
