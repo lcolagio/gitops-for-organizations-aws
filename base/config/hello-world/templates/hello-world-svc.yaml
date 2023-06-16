@@ -6,6 +6,7 @@ metadata:
   labels:
     app: hello-world
   name: hello-world
+  namespace: hello-world  
 spec:
   ports:
   - name: 8080-tcp
@@ -17,5 +18,5 @@ spec:
     deploymentconfig: hello-world
   sessionAffinity: None
   type: ClusterIP
-  
+
 {{- end }}

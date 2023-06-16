@@ -4,6 +4,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: hello-world-configmap
+  namespace: hello-world
   labels:
     app.kubernetes.io/instance: hello-world
 data:

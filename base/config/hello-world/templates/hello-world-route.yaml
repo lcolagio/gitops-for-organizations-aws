@@ -6,6 +6,7 @@ metadata:
   labels:
     app: hello-world
   name: hello-world
+  namespace: hello-world  
 spec:
   port:
     targetPort: 8080-tcp
@@ -14,5 +15,5 @@ spec:
     name: hello-world
     weight: 100
   wildcardPolicy: None
-  
+
 {{- end }}
