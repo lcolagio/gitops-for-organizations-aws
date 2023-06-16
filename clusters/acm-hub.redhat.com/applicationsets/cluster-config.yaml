@@ -21,7 +21,6 @@ spec:
                - template: groups
                 #  - template: admin
                - template: web-terminal                
-
   template:
     metadata:
       name: "config-{{cluster.environment}}-{{cluster.name}}-{{template}}"
@@ -36,7 +35,7 @@ spec:
       #   - RespectIgnoreDifferences=true    
       ignoreDifferences:
       - kind: "Secret"
-        group: "*
+        group: "*"
         managedFieldsManagers:
         - Go-http-client
       # ignoreDifferences:
