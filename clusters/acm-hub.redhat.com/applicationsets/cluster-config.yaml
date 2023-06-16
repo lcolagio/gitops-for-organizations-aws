@@ -36,8 +36,8 @@ spec:
       ignoreDifferences:
       - kind: "Secret"
         group: "*"
-        managedFieldsManagers:
-        - Go-http-client
+        # managedFieldsManagers:
+        # - Go-http-client
       # ignoreDifferences:
       # - kind: "MachinePool"
       #   group: "hive.openshift.io"
