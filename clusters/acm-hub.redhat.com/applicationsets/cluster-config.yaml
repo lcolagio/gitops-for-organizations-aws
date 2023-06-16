@@ -14,12 +14,11 @@ spec:
                 - path: "clusters/**/conf.yaml"
           - list:
               elements:
-                # - template: openshift-machine-config
-                # - template: openshift-ingress
-                # - template: openshift-marketplace
+               #  - template: admin
+
                - template: identity-provider
                - template: groups
-                #  - template: admin
+               - template: hello-world                     
                - template: web-terminal                
   template:
     metadata:
