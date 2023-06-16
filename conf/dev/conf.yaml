@@ -1,13 +1,3 @@
-# # Cluster
-
-# # Openshift Config
-# config:
-#   include: true
-
-# # MachineConfig
-# machineConfig:
-#   include: true
-
 # Web Terminal
 webterminal:
   include: true

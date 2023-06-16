@@ -1,3 +1,5 @@
+{{- if .Values.helloworld.include -}}
+
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -56,3 +58,5 @@ spec:
         configMap:
           defaultMode: 438
           name: hello-world-configmap
+          
+{{- end }}
