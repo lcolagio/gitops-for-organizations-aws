@@ -8,8 +8,3 @@ cluster:
   cloud: AWS
   region: us-west-1
 
-
-# exemple application
-helloworld:
-  include: true
-
