@@ -97,4 +97,5 @@ kubectl -n "$NAMESPACE" label secret "$SECRETNAME" sealedsecrets.bitnami.com/sea
 until oc apply -k https://github.com/lcolagio/gitops-for-organizations-aws/bootstrap/overlays/default/; do sleep 5; done
 ```
 
-
+## Add clusters for test
+* move /tmp/<env>/ocp<x>.sandbox<xxx>.opentlc.com to /clusters/<env>
