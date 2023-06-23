@@ -16,10 +16,10 @@ ssh $BASTION
 ```
 
 ## On Git update conf.yam and provision.yaml
-* Search and Repplace sandbox<xxx> by sandbox<YYY>
+* Search and Repplace sandbox-xxx by sandbox-YYY
 
 ## On Git update cluster name folder
-* Search and Repplace sandbox<xxx> by sandbox<YYY>
+* Search and Repplace sandbox- xxx> by sandbox<YYY>
 
 ## On Git update sealedsecret-aws.yaml
 
