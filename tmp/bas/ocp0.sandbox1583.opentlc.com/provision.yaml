@@ -1,8 +1,10 @@
+# Provision cluster
+
 cluster:
-  name: ocp1
-  baseDomain: sandbox790.opentlc.com
-  fqdn: ocp1.sandbox790.opentlc.com
-  environment: dev
+  name: ocp0
+  baseDomain: sandbox1583.opentlc.com
+  fqdn: ocp0.sandbox1583.opentlc.com
+  environment: bas
   datacenter: us
   cloud: AWS
   region: us-west-1
