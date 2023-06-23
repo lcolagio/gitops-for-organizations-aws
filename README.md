@@ -1,5 +1,3 @@
-# gitops-for-organizations-aws
-* Se logger sur RH ACM
 
 # Install Managelment Hub Cluster via Red Hat Demo Platform
 * https://demo.redhat.com/catalog?item=babylon-catalog-prod/sandboxes-gpte.sandbox-ocp.prod
