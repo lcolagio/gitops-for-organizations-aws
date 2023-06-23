@@ -1,5 +1,5 @@
 
-## Install Managelment Hub Cluster via Red Hat Demo Platform
+## Install Management Hub Cluster via Red Hat Demo Platform
 * https://demo.redhat.com/catalog?item=babylon-catalog-prod/sandboxes-gpte.sandbox-ocp.prod
 
 ## Copy your Master Key to encrypt Secret via SealedSecret
@@ -16,7 +16,10 @@ ssh $BASTION
 ```
 
 ## On Git update conf.yam and provision.yaml
-* search and Repplace sandboxxxx by sandboxYYYY
+* Search and Repplace sandbox<xxx> by sandbox<YYY>
+
+## On Git update cluster name folder
+* Search and Repplace sandbox<xxx> by sandbox<YYY>
 
 ## On Git update sealedsecret-aws.yaml
 
