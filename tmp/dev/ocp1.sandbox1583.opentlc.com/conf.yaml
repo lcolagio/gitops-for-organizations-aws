@@ -1,9 +1,0 @@
-cluster:
-  name: ocp1
-  baseDomain: sandbox1583.opentlc.com
-  fqdn: ocp1.sandbox1583.opentlc.com
-  address: "https://api.ocp1.sandbox1583.opentlc.com:6443"
-  environment: dev
-  datacenter: us
-  cloud: AWS
-  region: us-west-1

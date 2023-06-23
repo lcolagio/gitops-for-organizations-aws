@@ -1,0 +1,10 @@
+cluster:
+  name: ocp2
+  baseDomain: sandbox1844.opentlc.com
+  fqdn: ocp2.sandbox1844.opentlc.com
+  address: "https://api.ocp2.sandbox1844.opentlc.com:6443"
+  environment: qua
+  datacenter: us
+  cloud: AWS
+  region: us-west-1
+

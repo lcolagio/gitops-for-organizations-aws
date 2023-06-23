@@ -1,0 +1,10 @@
+cluster:
+  name: ocp3
+  baseDomain: sandbox1844.opentlc.com
+  fqdn: ocp3.sandbox1844.opentlc.com
+  address: "https://api.ocp3.sandbox1844.opentlc.com:6443"
+  environment: pro
+  datacenter: us
+  cloud: AWS
+  region: us-west-1
+
