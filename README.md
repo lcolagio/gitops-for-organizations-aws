@@ -47,7 +47,7 @@ sudo install -m 755 kubeseal /usr/local/bin/kubeseal
 kubeseal --version
 ```
 
-## Encrypt with sealed-Secret
+* Encrypt with sealed-Secret
 
 ```shell
 SECRET=aws-creds-secret
