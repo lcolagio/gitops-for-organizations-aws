@@ -1,21 +1,29 @@
 
-# Install Managelment Hub Cluster via Red Hat Demo Platform
+## Install Managelment Hub Cluster via Red Hat Demo Platform
 * https://demo.redhat.com/catalog?item=babylon-catalog-prod/sandboxes-gpte.sandbox-ocp.prod
 
-# Copy Master Key to encrypt Secret via SealedSecret
+## Copy your Master Key to encrypt Secret via SealedSecret
 
 ```shell
 export BASTION=lab-user@bastion.grjm6.sandbox1844.opentlc.com
 scp $HOME/.ssh/sealed-secrets-from-gitops.* $BASTION:/home/lab-user
 ```
 
-# Connect to Bastion and generate SealedSecret for Cloud provider AWS
+## Connect to Bastion and generate SealedSecret for Cloud provider AWS
 
 ```shell
 ssh $BASTION
 ```
 
-# Install tools and Cli
+## On Git update conf.yam and provision.yaml
+* search and Repplace sandboxxxx by sandboxYYYY
+
+## On Git update sealedsecret-aws.yaml
+
+* Generate SealedSecret for aws credential
+```shell
+
+## Install tools and Cli
 
 ```shell
 wget https://github.com/mikefarah/yq/releases/download/v4.34.1/yq_linux_amd64
@@ -36,14 +44,9 @@ sudo install -m 755 kubeseal /usr/local/bin/kubeseal
 kubeseal --version
 ```
 
-# On Git update conf.yam and provision.yaml
-* search and Repplace sandboxxxx by sandboxYYYY
+## Encrypt with sealed-Secret
 
-# On Git update sealedsecret-aws.yaml
-
-* Generate SealedSecret for aws credential
 ```shell
-
 SECRET=aws-creds-secret
 
 cat << EOF >xxx-aws-creds-secret.yaml
@@ -71,7 +74,7 @@ cat xxx-aws-creds-sealed-secret.yaml
     aws_secret_access_key: xxx
 ```
 
-# Update sealed secrets key
+## Update sealed secrets key
 
 ```shell
 export NAMESPACE="sealed-secrets"
@@ -85,10 +88,7 @@ kubectl -n "$NAMESPACE" create secret tls "$SECRETNAME" --cert="$PUBLICKEY" --ke
 kubectl -n "$NAMESPACE" label secret "$SECRETNAME" sealedsecrets.bitnami.com/sealed-secrets-key=active
 ```
 
-
-
-
-# Bootstrap RH ACM Cluster
+## Bootstrap RH ACM Cluster
 
 ```shell
 until oc apply -k https://github.com/lcolagio/gitops-for-organizations-aws/bootstrap/overlays/default/; do sleep 5; done
