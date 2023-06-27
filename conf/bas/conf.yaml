@@ -5,3 +5,7 @@ webterminal:
 # Indentit Pprovider Httpasswd
 indentityprovider:
   include: true
+
+# exemple application
+helloworld:
+  include: true
