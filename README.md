@@ -1,6 +1,7 @@
 
-## Install Management Hub Cluster via Red Hat Demo Platform
+## Install Management Hub Cluster via Red Hat Demo  Platform
 * https://demo.redhat.com/catalog?item=babylon-catalog-prod/sandboxes-gpte.sandbox-ocp.prod
+
 
 ## Copy your Master Key to encrypt Secret via SealedSecret
 
